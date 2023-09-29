@@ -24,13 +24,12 @@ body {
     "conteudo" 
     "rodape";
     overflow: auto;
-    font-size: 100%;
 }
 
 .cabecalho{
     grid-area: "cabecalho";
     background-color: var(--cor-primaria);
-    box-shadow: 0 0 0.3rem var(--cor-quatenaria), 0 0 0.6rem var(--cor-quatenaria), 0 0 0.9rem var(--cor-quatenaria);
+    box-shadow: 0 0 0.3em var(--cor-quatenaria), 0 0 0.6em var(--cor-quatenaria), 0 0 0.9em var(--cor-quatenaria);
     padding: 1.3em;
     position: sticky;
     top: 0em; 
@@ -38,8 +37,8 @@ body {
 
 .cabecalho__img {
     position: fixed;
-    top: 0.1rem;
-    left: 0.6rem;
+    top: 0.1em;
+    left: 0.6em;
 
 }
 
@@ -81,27 +80,27 @@ body {
 .home__capa__titulo__destaque {
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
-    font-size: 55px;
+    font-size: 1.5em;
     font-weight: 400;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
 }
 
 .home__apresentacao {
     background-image: url(../assets/dots.png);
-    padding: 10em 12em;
+    padding: 7em 9em;
     color: var(--cor-tercearia);
     text-align: center;
 }
 
 .home__apresentacao__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 3em;
     font-weight: 700;
 }
 
 .home__apresentacao__titulo__conteudo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1.1em;
     color: var(--cor-tercearia);
     text-align: center;
 }
@@ -119,7 +118,7 @@ body {
 
 .home__curriculo__conteudo{
     font-family: var(--fonte-secundaria);
-    font-size: 55px;
+    font-size: 1em;
     color: var(--cor-segundaria);
     text-align: justify;
 }
@@ -130,14 +129,14 @@ body {
 
 .home__botao__acesse__curriculo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 0.8em;
     font-weight: 500;
     color: var(--cor-primaria);
-    border: 0.1rem solid var(--cor-primaria);
+    border: 0.1em solid var(--cor-primaria);
     background: var(--cor-tercearia);
     text-decoration: none;    
-    letter-spacing: 0.1rem;
-    padding: 1rem;
+    letter-spacing: 0.1em;
+    padding: 1em;
 }
 
 .home__botao__acesse__curriculo:hover {
@@ -157,7 +156,7 @@ body {
 
 .home__acesse__contatos__conteudo {
     font-family: var(--fonte-secundaria);
-    font-size: 55px;
+    font-size: 1em;
     color: var(--cor-segundaria);
     text-align: justify;
 }
@@ -178,20 +177,57 @@ body {
 
 .home__botao__acesse__contatos {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 0.8em;
     font-weight: 500;
     color: var(--cor-primaria);
-    border: 0.1rem transparent;
+    border: 0.1em transparent;
     background: var(--cor-tercearia);
     text-decoration: none;    
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
     padding: 1em;
 }
 
 .home__botao__acesse__contatos:hover {
     color: var(--cor-tercearia);
-    border: 0.1rem solid var(--cor-tercearia);
+    border: 0.1em solid var(--cor-tercearia);
     background: transparent;
+}
+
+.sobre__capa {
+    background-color: var(--cor-tercearia);
+    padding: 5%;
+    text-align: center;
+}
+
+.sobre__capa__titulo {
+    font-size: 4.5em;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+}
+
+.sobre__conteudo__principal h1 {
+    text-align: center;
+    padding: 0 0 3% 0;
+    font-size: 2em;
+}
+
+.sobre__conteudo__principal {
+    padding: 5% 10%;
+    font-family: var(--fonte-primaria);
+    text-align: justify;
+}
+
+.sobre__conteudo__principal__texto a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #232323;
+}
+
+.sobre__conteudo__principal__texto a:hover {
+    color: var(--cor-quintenaria);
+}
+.sobre__conteudo__principal__texto a:active {
+    color: var(--cor-sextenaria);
 }
 
 .curriculo__capa{
@@ -201,7 +237,7 @@ body {
 
 .curriculo__capa__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 4.5em;
     color: var(--cor-quintenaria);
     padding: 5%; 
 }
@@ -210,7 +246,7 @@ body {
     display: flex;
     list-style: none;
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 0.9em;
     font-weight: 500;
     justify-content: center;
     gap: 3em;
@@ -245,19 +281,19 @@ body {
 
 .curriculo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 .curriculo__subtitulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1em;
     font-weight: 700;
 }
 
 .curriculo p {
     font-family: var(--fonte-secundaria);
-    font-size: 55px;
+    font-size: 1em;
 }
 
 .curriculo__conteudo__start {
@@ -271,18 +307,18 @@ body {
 
 .contato__capa {
     background: linear-gradient(#dddcdc, #f5f5f5);
-    padding: 10rem;
+    padding: 10em;
 }
 
 .contato__capa__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 2em;
     font-weight: 500; 
     text-align: end;
 }
 
 .contato__info {
-    padding: 11em;
+    padding: 11em 11em 5em 11em;
     display: flex;
     justify-content: space-evenly;
     list-style: none; 
@@ -290,25 +326,25 @@ body {
 
 .contato__info__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 2em;
     font-weight: 600; 
 }
 
 .contato__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1em;
     font-weight: 600; 
 }
 
 .contato__info__email {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1em;
     font-weight: 400;
 }
 
 .contato__info__tel {
     font-family: var(--fonte-primaria);
-    font-size: 55px;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -328,15 +364,37 @@ body {
 
 .form__container {
     font-family: var(--fonte-primaria);
-    font-size: 3em;
+    font-size: 1em;
     text-align: center;
+    padding: 5%;
+}
+
+.form__grupo {
+    text-align: center;
+    border: none;
+}
+
+.form__botao {
+    font-family: var(--fonte-primaria);
+    font-size: 0.8em;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    border: transparent;
+    background: var(--cor-tercearia);
+    padding: 1em;
+}
+
+.form__botao:hover {
+    color: var(--cor-tercearia);
+    border: 0.1em solid var(--cor-tercearia);
+    background: transparent;
 }
 
 .rodape {
     grid-area: "rodape";
     background-color: var(--cor-tercearia);
     display: flex;
-    padding: 3em;
+    padding: 5%;
     text-align: start;
     justify-content: center;
 }
